@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                     z = ~~z;
                                     tempDC.innerHTML += `<h5>` + dc.name + ` - ` + dc.abbrev + `</h5>`;
                                     tempDC.innerHTML += `Thresholds<br />`;
-                                    tempDC.innerHTML += `high: ` + dc.setpoints[0] + `| low: ` + dc.setpoints[1] + `<br />`;
+                                    tempDC.innerHTML += `high: ` + dc.setpoints[0] + ` | low: ` + dc.setpoints[1] + `<br />`;
                                     tempDC.innerHTML += `<strong>Current</strong>: <font color="black">${z}°F</font>`;
                                     tempDC.innerHTML += `<br />`;
                                     fetch(forecastUrl)
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                                 } else {
                                                     if(dayOfWeek == today) {
                                                         dayOfWeek = "Tonight";
-                                                        tempDC.innerHTML += `<strong>Low</strong><font color=${tempcolor}>${highlows[i].Low}°F </font>`;
+                                                        tempDC.innerHTML += `<strong>${md} - ${dayOfWeek} Low:</strong> <font color=${tempcolor}>${highlows[i].Low}°F </font>`;
                                                     } else {
                                                         tempDC.innerHTML += `<strong>${md} - ${dayOfWeek}</strong>: <strong>High</strong> <font color=${tempcolor}>${highlows[j-2].High}°F / </font><strong>Low</strong> <font color=${tempcolor}>${highlows[i].Low}°F </font>`;
                                                     }                                                      
