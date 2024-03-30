@@ -1,0 +1,36 @@
+
+
+/* Custom CSS for changing background color of div rows */
+.row:nth-child(odd) {
+    background-color:darkgray;
+
+}
+
+.row:nth-child(even) {
+    background-color:dodgerblue;
+    
+}
+
+.site:nth-child(odd) {
+    background-color:mintcream;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.site:nth-child(even) {
+    background-color:lightgray;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    text-align: center;
+    padding: 10px;
+}
+
+.site:hover {
+    transform: scale(1.1);
+}
+

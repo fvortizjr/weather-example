@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Honolulu",
+        "latlong": "21.3064,-157.8567",
+        "setpoints": [95,7],
+        "abbrev": "HW"
+    },
+    {
+        "name": "Seattle",
+        "latlong": "47.6062,-122.3320",
+        "setpoints": [95,7],
+        "abbrev": "SEA"
+    },
+    {
+        "name": "San Jose",
+        "latlong": "37.3338,-121.8906",
+        "setpoints": [110,17],
+        "abbrev": "SJ"
+    },
+    {
+        "name": "Los Angeles",
+        "latlong": "34.0522,-118.2436",
+        "setpoints": [121,16],
+        "abbrev": "LA"
+    },
+    {
+        "name": "Phoenix",
+        "latlong": "33.4483,-112.0740",
+        "setpoints": [100,7],
+        "abbrev": "PHX"
+    },
+    {
+        "name": "Denver",
+        "latlong": "39.7392,-104.9902",
+        "setpoints": [109,16],
+        "abbrev": "DEN"
+    },
+    {
+        "name": "Dallas",
+        "latlong": "32.7767,-96.7970",
+        "setpoints": [101,13],
+        "abbrev": "DAL"
+    },
+    {
+        "name": "Houston",
+        "latlong": "29.7604,-95.3698",
+        "setpoints": [108,19],
+        "abbrev": "HOU"
+    },
+    {
+        "name": "Cincinnati",
+        "latlong": "39.1078,-84.5154",
+        "setpoints": [99,10],
+        "abbrev": "CIN"
+    },
+    {
+        "name": "Atlanta",
+        "latlong": "33.7407,-84.3888",
+        "setpoints": [102,10],
+        "abbrev": "ATL"
+    },
+    {
+        "name": "Miami",
+        "latlong": "25.7639,-80.2038",
+        "setpoints": [109,17],
+        "abbrev": "MIA"
+    },
+    {
+        "name": "Washington D.C.",
+        "latlong": "38.9045,-77.0376",
+        "setpoints": [92,18],
+        "abbrev": "DC"
+    },
+    {
+        "name": "New York",
+        "latlong": "40.7142,-74.0043",
+        "setpoints": [100,11],
+        "abbrev": "NYC"
+    }
+]
